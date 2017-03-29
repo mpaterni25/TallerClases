@@ -61,8 +61,178 @@ public class MainActivity extends AppCompatActivity {
         comboTipo.setAdapter(adapter2);
 
 
+        public int calcular(){
+            int pres, cant;
+            cant = Integer.parseInt(txtCant.getText().toString());
+            if (r1.isChecked()){
+                if (comboMaterial.getSelectedItem()==0){
+                    if (comboDije.getSelectedItem()==0){
+                        if (comboTipo.getSelectedItem()==0){
+
+                             pres = cant *100;
+                        }else {
+                            if (comboTipo.getSelectedItem()==1){
+                                pres = cant *100;
+                            }else {
+                                if (comboTipo.getSelectedItem()==2){
+                                    pres = cant * 80;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==3){
+                                        pres = cant * 120;
+                                    }
+                                }
+                            }
+                        }
+                    }else {
+                        if (comboDije.getSelectedItem()==1){
+                            pres = cant * 100;
+                            if (comboTipo.getSelectedItem()==0){
+                                    pres = cant * 70;
+                            }else {
+                                if (comboTipo.getSelectedItem()==1){
+                                    pres = cant * 50;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==2){
+                                        pres =  cant * 110;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==3){
+                                             pres = cant * 90;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }else {
+                    if (comboMaterial.getSelectedItem()==1){
+                            pres = cant * 90;
+                        if (comboDije.getSelectedItem()==0){
+                            if (comboTipo.getSelectedItem()==0){
+                                pres = cant * 50;
+                            }else {
+                                if (comboTipo.getSelectedItem()==1){
+                                    pres = cant * 80;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==2){
+                                        pres = cant * 100;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==3){
+                                            pres = cant * 120;
+                                        }
+                                    }
+                                }
+                            }
+                        }else {
+                            if (comboDije.getSelectedItem()==1) {
+                                if (comboTipo.getSelectedItem()==0){
+                                    pres = cant * 70;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==1){
+                                        pres = cant * 100;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==2){
+                                            pres = cant * 120;
+                                        }else {
+                                            if (comboTipo.getSelectedItem()==3){
+                                                pres = cant * 90;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }else {
+                if (r2.isChecked()){
+                    if (comboMaterial.getSelectedItem()==0){
+                        if (comboDije.getSelectedItem()==0){
+                            if (comboTipo.getSelectedItem()==0){
+                                pres = cant * 3200 * 80;
+                            }else {
+                                if (comboTipo.getSelectedItem()==1){
+                                    pres = cant * 3200 * 70;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==2){
+                                        pres = cant * 3200 * 120;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==3){
+                                            pres = cant * 3200 * 70;
+                                        }
+                                    }
+                                }
+                            }
+                        }else {
+                            if (comboDije.getSelectedItem()==1){
+                                if (comboTipo.getSelectedItem()==0){
+                                    pres = cant * 3200 * 100;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==1){
+                                        pres = cant * 3200 * 80;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==2){
+                                            pres = cant * 3200 * 120;
+                                        }else {
+                                            if (comboTipo.getSelectedItem()==3){
+                                                pres = cant * 3200 * 90;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }else {
+                        if (comboMaterial.getSelectedItem()==1){
+                            if (comboDije.getSelectedItem()==0){
+                                if (comboTipo.getSelectedItem()==0){
+                                    pres = cant * 3200 * 100;
+                                }else {
+                                    if (comboTipo.getSelectedItem()==1){
+                                        pres = cant * 3200 * 120;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==2){
+                                            pres = cant * 3200 * 70;
+                                        }else {
+                                            if (comboTipo.getSelectedItem()==3){
+                                                pres = cant * 3200 * 50;
+                                            }
+                                        }
+                                    }
+                                }
+                            }else {
+                                if (comboDije.getSelectedItem()==1){
+                                    if (comboTipo.getSelectedItem()==0){
+                                        pres = cant * 3200 * 100;
+                                    }else {
+                                        if (comboTipo.getSelectedItem()==1){
+                                            pres = cant * 3200 * 100;
+                                        }else {
+                                            if (comboTipo.getSelectedItem()==2){
+                                                pres = cant * 3200 * 80;
+                                            }else {
+                                                if (comboTipo.getSelectedItem()==3){
+                                                    pres = cant * 3200 * 70;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+
     }
 }
+
+
+
+
+
 
 
 
