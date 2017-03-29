@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller Clases</string>
+    <string name="COP">COP</string>
+    <string name="Tipo">Type</string>
+    <string name="USD">USD</string>
+    <string name="XYZ">XYZ</string>
+    <string name="ancla">Anchor</string>
+    <string name="calular">Calculate</string>
+    <string name="cantidad">Amount</string>
+    <string name="cuerda">Rope</string>
+    <string name="cuero">Leather</string>
+    <string name="dije">Pendant</string>
+    <string name="error_1">Please Select a Material</string>
+    <string name="error_2">Please Select a Pendant</string>
+    <string name="error_3">Please Select a Type</string>
+    <string name="martillo">Hammer</string>
+    <string name="material">Material</string>
+    <string name="niquel">Nickel</string>
+    <string name="oro">Gold</string>
+    <string name="oro_Rosado">Pink Gold</string>
+    <string name="plata">Silver</string>
+    <string name="tipo_Moneda">Type  Currency</string>
+    <string name="title_activity_main"></string>
+    <string name="vacio"></string>
+</resources>

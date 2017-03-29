@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Taller Clases</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="material">Material</string>
+    <string name="dije">Dije</string>
+    <string name="Tipo" >Tipo</string>
+    <string name="tipo_Moneda">Tipo Moneda</string>
+    <string name="USD">USD</string>
+    <string name="COP">COP</string>
+    <string name="cuero">Cuero</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="oro">Oro</string>
+    <string name="oro_Rosado">Oro rosado</string>
+    <string name="niquel">Niquel</string>
+    <string name="plata">Plata</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="XYZ">XYZ</string>
+    <string name="vacio"></string>
+    <string name="calular">Calcular</string>
+    <string name="error_1">Por favor Selecione Material</string>
+    <string name="error_2">Por favor Selecione Dije</string>
+    <string name="error_3">Por favor Selecione Tipo</string>
+
+
+    <string-array name="materiales">
+        <item>@string/vacio</item>
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+    <string-array name="dijes">
+        <item>@string/vacio</item>
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>@string/vacio</item>
+        <item>@string/oro</item>
+        <item>@string/oro_Rosado</item>
+        <item>@string/niquel</item>
+        <item>@string/plata</item>
+
+    </string-array>
+
+</resources>
